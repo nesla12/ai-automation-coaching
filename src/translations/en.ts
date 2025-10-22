@@ -21,6 +21,16 @@ export const en = {
     hero: {
       title: 'Transform Your Business with AI Automation',
       subtitle: 'Streamline operations and scale smarter with our tailored AI coaching and advanced automation solutions.',
+      typewriter: {
+        prefix: 'Unlock Your Business Potential with',
+        words: [
+          'AI Automation',
+          'AI Agents',
+          'Digital Innovation',
+          'AI Strategy',
+          'AI Training'
+        ]
+      }
     },
     benefits: {
       title: 'Why Choose AI Automation Coach?',
