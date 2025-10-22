@@ -3,6 +3,7 @@ import { Layout } from '../components/layout/Layout';
 import { Button } from '../components/ui/Button';
 import { motion, AnimatePresence } from 'framer-motion';
 import { UseCasesSlider } from '../components/home/UseCasesSlider';
+import { TypewriterAnimation } from '../components/home/TypewriterAnimation';
 import { Link } from 'react-router-dom';
 import { guides } from '../data/guides';
 import { AutomationRequestForm } from '../components/automation/AutomationRequestForm';
@@ -85,22 +86,24 @@ export const Home = () => {
       <div className="min-h-screen">
         <section className="relative overflow-hidden bg-gradient-to-b from-background-light to-white dark:from-background-dark dark:to-background-dark/95 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div 
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="text-center mb-16"
-            >
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Unlock Your Business Potential with{' '}
-                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                  Intelligent Automation
-                </span>
-              </h1>
-              <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            <div className="text-center mb-16">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                className="mb-6"
+              >
+                <TypewriterAnimation />
+              </motion.div>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
+              >
                 Transform your workflows, save valuable time, and achieve sustainable growth with 
                 expert-guided AI automation solutions
-              </p>
+              </motion.p>
 
               {/* Benefits Section */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 mb-20">
