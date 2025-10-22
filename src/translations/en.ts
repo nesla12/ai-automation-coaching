@@ -18,12 +18,13 @@ export const en = {
     }
   },
   typewriter: {
+    staticText: 'Unlock Your Business Potential with',
     phrases: [
-      'Unlock Your Business Potential with AI Automation',
-      'Unlock Your Business Potential with AI Agents',
-      'Unlock Your Business Potential with Digital Innovation',
-      'Unlock Your Business Potential with AI Strategy',
-      'Unlock Your Business Potential with AI Training'
+      'AI Automation',
+      'AI Agents',
+      'Digital Innovation',
+      'AI Strategy',
+      'AI Training'
     ]
   },
   home: {

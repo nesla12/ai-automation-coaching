@@ -18,12 +18,13 @@ export const de = {
     }
   },
   typewriter: {
+    staticText: 'Transformieren Sie Ihr Unternehmen mit',
     phrases: [
-      'Transformieren Sie Ihr Unternehmen mit KI-Automatisierung',
-      'Transformieren Sie Ihr Unternehmen mit KI-Agenten',
-      'Transformieren Sie Ihr Unternehmen mit Digitaler Innovation',
-      'Transformieren Sie Ihr Unternehmen mit KI-Strategie',
-      'Transformieren Sie Ihr Unternehmen mit KI-Schulungen'
+      'KI-Automatisierung',
+      'KI-Agenten',
+      'Digitaler Innovation',
+      'KI-Strategie',
+      'KI-Schulungen'
     ]
   },
   home: {

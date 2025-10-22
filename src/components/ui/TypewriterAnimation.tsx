@@ -13,7 +13,8 @@ export const TypewriterAnimation: React.FC<TypewriterAnimationProps> = ({ classN
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
 
-  // Get the typewriter phrases for current language
+  // Get the static text and typewriter phrases for current language
+  const staticText = t('typewriter.staticText') as string;
   const phrases = t('typewriter.phrases', { returnObjects: true }) as string[];
 
   const typeWriter = useCallback(() => {
@@ -60,7 +61,7 @@ export const TypewriterAnimation: React.FC<TypewriterAnimationProps> = ({ classN
     return () => clearInterval(cursorInterval);
   }, []);
 
-  if (!phrases || phrases.length === 0) {
+  if (!phrases || phrases.length === 0 || !staticText) {
     return (
       <span className="text-xl font-extrabold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
         AI Automation Coach
@@ -71,12 +72,15 @@ export const TypewriterAnimation: React.FC<TypewriterAnimationProps> = ({ classN
   return (
     <div className={`inline-block ${className}`}>
       <span className="text-xl font-extrabold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-        {displayText}
-        <span 
-          className={`inline-block w-0.5 h-6 bg-gradient-to-b from-primary to-secondary ml-1 transition-opacity duration-200 ${
-            showCursor ? 'opacity-100' : 'opacity-0'
-          }`}
-        />
+        {staticText}{' '}
+        <span className="inline-block">
+          {displayText}
+          <span 
+            className={`inline-block w-0.5 h-6 bg-gradient-to-b from-primary to-secondary ml-1 transition-opacity duration-200 ${
+              showCursor ? 'opacity-100' : 'opacity-0'
+            }`}
+          />
+        </span>
       </span>
     </div>
   );
