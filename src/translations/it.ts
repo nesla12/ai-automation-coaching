@@ -17,6 +17,15 @@ export const it = {
       error: 'Iscrizione fallita. Riprova più tardi.'
     }
   },
+  typewriter: {
+    phrases: [
+      'Trasforma il tuo modo di lavorare con l\'Automazione AI',
+      'Trasforma il tuo modo di lavorare con Agenti AI',
+      'Trasforma il tuo modo di lavorare con Innovazione Digitale',
+      'Trasforma il tuo modo di lavorare con Strategia AI',
+      'Trasforma il tuo modo di lavorare con Formazione AI'
+    ]
+  },
   home: {
     hero: {
       title: 'Trasforma la tua azienda con l\'automazione IA',
