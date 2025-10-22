@@ -21,6 +21,10 @@ export const it = {
     hero: {
       title: 'Trasforma la tua azienda con l\'automazione IA',
       subtitle: 'Ottimizza le operazioni e scala in modo più intelligente con le nostre soluzioni di coaching IA e automazione avanzata.',
+      typewriter: {
+        staticText: 'Trasforma il tuo modo di lavorare con l\'',
+        rotatingWords: ['Automazione AI', 'Agenti AI', 'Innovazione Digitale', 'Strategia AI', 'Formazione AI']
+      }
     },
     benefits: {
       title: 'Perché scegliere AI Automation Coach?',

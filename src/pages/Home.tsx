@@ -3,6 +3,7 @@ import { Layout } from '../components/layout/Layout';
 import { Button } from '../components/ui/Button';
 import { motion, AnimatePresence } from 'framer-motion';
 import { UseCasesSlider } from '../components/home/UseCasesSlider';
+import { TypewriterTitle } from '../components/home/TypewriterTitle';
 import { Link } from 'react-router-dom';
 import { guides } from '../data/guides';
 import { AutomationRequestForm } from '../components/automation/AutomationRequestForm';
@@ -91,12 +92,7 @@ export const Home = () => {
               transition={{ duration: 0.6 }}
               className="text-center mb-16"
             >
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Unlock Your Business Potential with{' '}
-                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                  Intelligent Automation
-                </span>
-              </h1>
+              <TypewriterTitle />
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
                 Transform your workflows, save valuable time, and achieve sustainable growth with 
                 expert-guided AI automation solutions
