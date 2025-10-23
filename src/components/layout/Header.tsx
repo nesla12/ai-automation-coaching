@@ -3,6 +3,7 @@ import { Book, Users, Workflow, Menu, X, Sun, Moon, Sparkles } from 'lucide-reac
 import { Button } from '../ui/Button';
 import { Link, useLocation } from 'react-router-dom';
 import { LanguageSelector } from './LanguageSelector';
+import { TypewriterTitle } from './TypewriterTitle';
 import { useThemeStore } from '../../store/themeStore';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -29,7 +30,7 @@ export const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <span className="text-xl font-extrabold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              AI Automation Coach
+              <TypewriterTitle />
             </span>
           </Link>
 

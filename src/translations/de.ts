@@ -21,6 +21,16 @@ export const de = {
     hero: {
       title: 'Transformieren Sie Ihr Unternehmen mit KI-Automatisierung',
       subtitle: 'Optimieren Sie Ihre Abläufe und skalieren Sie intelligenter mit unseren maßgeschneiderten KI-Coaching- und Automatisierungslösungen.',
+      typewriter: {
+        base: 'Transformieren Sie Ihr Unternehmen mit',
+        terms: [
+          'KI-Automatisierung',
+          'KI-Agenten',
+          'Digitaler Innovation', 
+          'KI-Strategie',
+          'KI-Schulungen'
+        ]
+      }
     },
     benefits: {
       title: 'Warum AI Automation Coach wählen?',
