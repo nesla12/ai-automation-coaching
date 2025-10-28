@@ -17,6 +17,16 @@ export const en = {
       error: 'Subscription failed. Please try again.'
     }
   },
+  typewriter: {
+    staticText: 'Unlock Your Business Potential with',
+    phrases: [
+      'AI Automation',
+      'AI Agents',
+      'Digital Innovation',
+      'AI Strategy',
+      'AI Training'
+    ]
+  },
   home: {
     hero: {
       title: 'Transform Your Business with AI Automation',

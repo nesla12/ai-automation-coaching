@@ -17,6 +17,16 @@ export const de = {
       error: 'Abonnement fehlgeschlagen. Bitte versuchen Sie es erneut.'
     }
   },
+  typewriter: {
+    staticText: 'Transformieren Sie Ihr Unternehmen mit',
+    phrases: [
+      'KI-Automatisierung',
+      'KI-Agenten',
+      'Digitaler Innovation',
+      'KI-Strategie',
+      'KI-Schulungen'
+    ]
+  },
   home: {
     hero: {
       title: 'Transformieren Sie Ihr Unternehmen mit KI-Automatisierung',
