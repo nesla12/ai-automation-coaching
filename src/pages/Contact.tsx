@@ -1,10 +1,16 @@
 import React from 'react';
 import { Layout } from '../components/layout/Layout';
 import { ContactForm } from '../components/contact/ContactForm';
+import { SEO } from '../components/SEO';
 
 export const Contact = () => {
   return (
     <Layout>
+      <SEO
+        title="Kontakt | AI Automation Coach"
+        description="Nehmen Sie Kontakt auf – wir beraten Sie gerne zu KI-Automatisierung und massgeschneiderten Lösungen für Ihr KMU."
+        canonical="/contact"
+      />
       <div className="py-12 bg-gradient-to-b from-background-light to-white dark:from-background-dark dark:to-background-dark/95">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layout } from '../components/layout/Layout';
+import { SEO } from '../components/SEO';
 import { Bot, Clock, Sparkles, Brain, Leaf, Lightbulb, LineChart, Linkedin } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 import { Link } from 'react-router-dom';
@@ -7,6 +8,11 @@ import { Link } from 'react-router-dom';
 export const About = () => {
   return (
     <Layout>
+      <SEO
+        title="Über uns | AI Automation Coach"
+        description="Wir helfen Schweizer KMU, mit KI-Automatisierung effizienter zu werden. Lernen Sie unser Team und unsere Mission kennen."
+        canonical="/about"
+      />
       <div className="py-12 bg-gradient-to-b from-background-light to-white dark:from-background-dark dark:to-background-dark/95">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}

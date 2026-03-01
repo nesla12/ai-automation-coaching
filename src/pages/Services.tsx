@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layout } from '../components/layout/Layout';
+import { SEO } from '../components/SEO';
 import { Workflow, Zap, Brain, Code, ArrowRight } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 import { Link } from 'react-router-dom';
@@ -43,6 +44,11 @@ export const Services = () => {
 
   return (
     <Layout>
+      <SEO
+        title="Leistungen | AI Automation Coach"
+        description="Make.com-Automatisierungen, KI-Agenten und Beratung für Schweizer KMU. Massgeschneiderte Lösungen zur Prozessoptimierung."
+        canonical="/services"
+      />
       <div className="py-12 bg-gradient-to-b from-background-light to-white dark:from-background-dark dark:to-background-dark/95">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">

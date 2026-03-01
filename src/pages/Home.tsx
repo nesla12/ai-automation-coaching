@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Layout } from '../components/layout/Layout';
+import { SEO } from '../components/SEO';
 import { Button } from '../components/ui/Button';
 import { motion, AnimatePresence } from 'framer-motion';
 import { UseCasesSlider } from '../components/home/UseCasesSlider';
@@ -83,6 +84,11 @@ export const Home = () => {
 
   return (
     <Layout>
+      <SEO
+        title="AI Automation Coach | KI-Automatisierung für Schweizer KMU"
+        description="Sparen Sie Zeit und Kosten mit massgeschneiderten Make.com-Workflows, KI-Agenten und praxisnahen Workshops. Für Schweizer KMU."
+        canonical="/"
+      />
       <div className="min-h-screen">
         <section className="relative overflow-hidden bg-gradient-to-b from-background-light to-white dark:from-background-dark dark:to-background-dark/95 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

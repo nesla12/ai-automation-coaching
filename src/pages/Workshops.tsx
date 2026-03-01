@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Layout } from '../components/layout/Layout';
+import { SEO } from '../components/SEO';
 import { Users, Clock, Check, Brain, Zap, Code, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Button } from '../components/ui/Button';
@@ -72,6 +73,11 @@ export const Workshops = () => {
 
   return (
     <Layout>
+      <SEO
+        title="Workshops | AI Automation Coach"
+        description="Praktische KI-Workshops für Teams und Unternehmen. Lernen Sie Make.com und KI-Automatisierung direkt anzuwenden."
+        canonical="/workshops"
+      />
       <div className="py-12 bg-gradient-to-b from-background-light to-white dark:from-background-dark dark:to-background-dark/95">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div 

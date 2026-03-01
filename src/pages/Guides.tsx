@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Layout } from '../components/layout/Layout';
+import { SEO } from '../components/SEO';
 import { guides } from '../data/guides';
 import { Book, Calendar, Search, Sparkles, Bot, Brain, Code } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -44,6 +45,11 @@ export const Guides = () => {
 
   return (
     <Layout>
+      <SEO
+        title="Guides & Ressourcen | AI Automation Coach"
+        description="Praxisnahe Anleitungen und Ressourcen zu Make.com, KI-Agenten und Automatisierung – kostenlos für Schweizer KMU."
+        canonical="/guides"
+      />
       <div className="min-h-screen py-12 guides-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
