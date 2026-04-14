@@ -5,6 +5,7 @@ import { Button } from '../components/ui/Button';
 import { motion, AnimatePresence } from 'framer-motion';
 import { UseCasesSlider } from '../components/home/UseCasesSlider';
 import { TypewriterAnimation } from '../components/home/TypewriterAnimation';
+import { TestimonialsSection } from '../components/home/TestimonialsSection';
 import { Link } from 'react-router-dom';
 import { guides } from '../data/guides';
 import { AutomationRequestForm } from '../components/automation/AutomationRequestForm';
@@ -215,6 +216,8 @@ export const Home = () => {
                   })}
                 </div>
               </div>
+
+              <TestimonialsSection />
 
               <div className="mt-20 mb-16">
                 <div className="text-center mb-12">

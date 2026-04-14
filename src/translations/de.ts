@@ -63,6 +63,13 @@ export const de = {
           answer: 'Unsere Kunden sehen typischerweise einen 3-5-fachen ROI im ersten Jahr durch reduzierte Betriebskosten, verbesserte Effizienz und gesteigerte Umsatzmöglichkeiten.'
         }
       }
+    },
+    testimonials: {
+      title: 'Was Unsere Kunden Sagen',
+      pensplanCentrum: {
+        company: 'Pensplan Centrum',
+        text: 'Hervorragender Fachmann, verfügbar und aufmerksam gegenüber den Bedürfnissen des Unternehmens.'
+      }
     }
   },
 };

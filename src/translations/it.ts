@@ -63,6 +63,13 @@ export const it = {
           answer: 'I nostri clienti tipicamente vedono un ROI di 3-5 volte nel primo anno attraverso la riduzione dei costi operativi, il miglioramento dell\'efficienza e l\'aumento delle opportunità di ricavo.'
         }
       }
+    },
+    testimonials: {
+      title: 'Cosa Dicono i Nostri Clienti',
+      pensplanCentrum: {
+        company: 'Pensplan Centrum',
+        text: 'Bravissimo professionista, disponibile e attento alle esigenze dell\'azienda.'
+      }
     }
   },
 };

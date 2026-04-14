@@ -63,6 +63,13 @@ export const en = {
           answer: 'Our clients typically see 3-5x ROI within the first year through reduced operational costs, improved efficiency, and increased revenue opportunities.'
         }
       }
+    },
+    testimonials: {
+      title: 'What Our Clients Say',
+      pensplanCentrum: {
+        company: 'Pensplan Centrum',
+        text: 'Excellent professional, available and attentive to the company\'s needs.'
+      }
     }
   },
 };
